@@ -43,7 +43,7 @@ public class CustomRssReader {
 					String itemValue =  obj_jaxb.getValue().toString();
 
 					System.out.print(itemType.toString());	
-					System.out.printf(": " + itemValue.toString());	
+					System.out.println(": " + itemValue.toString());	
 				}
 				System.out.println("");
 			}
